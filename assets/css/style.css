@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* --------- heading */
+
+h1 {
+    text-align: center;
+    color: #00ff00;
+    font-size: 3.5rem;
+    height: 40%;
+}
+
+/* --------- goal image */
+img {
+    width: 100%;
+}
+
+/* --------- icons */
+i {
+    color: #00ff00;
+    font-size: 5rem;
+}
