@@ -1,7 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron&family=Sarpanch&family=VT323&display=swap);
+
 body {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Orbitron', 'Sarpanch';
+    letter-spacing: 3.5px;
 }
 
 /* --------- heading */
@@ -9,7 +13,7 @@ body {
 h1 {
     text-align: center;
     color: #00ff00;
-    font-size: 3.5rem;
+    font-size: 3rem;
     height: 40%;
 }
 
