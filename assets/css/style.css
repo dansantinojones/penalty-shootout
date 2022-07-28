@@ -13,7 +13,7 @@ body {
 h1 {
     text-align: center;
     color: #00ff00;
-    font-size: 3rem;
+    font-size: 2.5rem;
     height: 40%;
 }
 
@@ -46,4 +46,18 @@ i {
 
 .selection:hover {
     transform: scale(1.5);
+}
+
+/* --------- score */
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+.result-score {
+    font-size: 2rem;
 }
