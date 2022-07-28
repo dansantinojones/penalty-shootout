@@ -27,3 +27,23 @@ i {
     color: #00ff00;
     font-size: 5rem;
 }
+
+/* --------- choices section*/
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+/* --------- selection options */
+.selection {
+    background: none;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 10rem;
+    transition: 100ms;
+}
+
+.selection:hover {
+    transform: scale(1.5);
+}
