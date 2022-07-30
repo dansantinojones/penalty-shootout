@@ -4,11 +4,13 @@ let resultDisplay =  document.getElementById('result')
 let possibleChoice = document.querySelectorAll('button')
 let yourChoice
 let gkChoice
+let result
 
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     yourChoice = e.target.id
     yourChoiceDisplay.innerHTML = yourChoice
     generateGkChoice()
+    getResult()
 }))
 
 function generateGkChoice() {
@@ -24,4 +26,14 @@ function generateGkChoice() {
         gkChoice = 'Right'
     }
     gkChoiceDisplay.innerHTML = gkChoice
+}
+
+function getResult () {
+    if (yourChoice === gkChoice)
+        result = "WHAT A SAVE!!!"
+
+    if (yourChoice !== gkChoice){
+        result = "GOOOAL!!!"
+    }
+    resultDisplay.innerHTML = result
 }
