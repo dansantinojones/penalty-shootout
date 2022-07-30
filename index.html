@@ -35,15 +35,15 @@
 <!--- shoot direction buttons -->
 
     <div class="choices">
-            <button class="selection">
+            <button class="selection" id="left">
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
 
-            <button class="selection">
+            <button class="selection" id="middle">
                 <i class="fa-solid fa-angle-up"></i>
             </button>
 
-            <button class="selection">
+            <button class="selection" id="right">
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
     </div>
@@ -60,6 +60,13 @@
             <span class="result-score">0</span>
             GK
         </div>
+    </div>
+
+<!--- results -->
+    <div>
+    <h3>You shoot: <span id="your-choice"></span></h3>
+    <h3>GK dives: <span id="gk-choice"></span></h3>
+    <h3>Result: <span id="result"></span></h3>
     </div>
 
  <script src="assets/js/script.js"></script>
