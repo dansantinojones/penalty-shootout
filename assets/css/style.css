@@ -30,3 +30,12 @@ img {
 /* --------- selection options */
 
 /* --------- score */
+h3 {
+    font-size: 1rem;
+}
+
+#result {
+    color: #00ff00;
+    font-size: 2rem;
+    text-align: center;
+}
