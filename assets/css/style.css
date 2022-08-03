@@ -22,7 +22,10 @@ img {
     width: 100%;
 }
 
-/* --------- icons */
+/* --------- ball */
+#ball {
+    font-size: 3.5rem;
+}
 
 /* --------- choices section*/
 .selection {
