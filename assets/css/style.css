@@ -25,6 +25,17 @@ img {
 /* --------- icons */
 
 /* --------- choices section*/
+.selection {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    transition: 100ms;
+    color: #ffffff;
+}
+
+.selection:hover {
+    transform: scale(1.5);
+}
 
 
 /* --------- score */
