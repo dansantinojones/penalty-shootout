@@ -27,9 +27,23 @@ img {
 /* --------- choices section*/
 
 
-/* --------- selection options */
-
 /* --------- score */
+#scoreboard {
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#your-score, #gk-score {
+    color: #00ff00;
+    font-size: 2rem;
+}
+
+
+/* --------- results */
 h3 {
     font-size: 1rem;
 }
