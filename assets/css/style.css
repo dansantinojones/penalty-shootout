@@ -24,20 +24,28 @@ img {
 
 /* --------- ball */
 #ball {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* --------- choices section*/
 .selection {
-    font-size: 3rem;
-    background: none;
-    border: none;
+    font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+    font-size: 0.8rem;
     transition: 100ms;
-    color: #ffffff;
+    color: #00ff00;
+    padding: 1rem;
+    border: 2px solid #00ff00;
+    background-color: black;
+    border-radius: 8px;
 }
 
 .selection:hover {
     transform: scale(1.5);
+}
+
+.choices {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 
