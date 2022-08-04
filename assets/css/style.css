@@ -135,3 +135,21 @@ h3 {
     }
 
 }
+
+@media screen and (max-width: 370px) {
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    .selection {
+        font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+        font-size: 0.5rem;
+        transition: 100ms;
+        color: #00ff00;
+        padding: 1rem;
+        border: 2px solid #00ff00;
+        background-color: black;
+        border-radius: 8px;
+    }
+}
