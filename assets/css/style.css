@@ -24,15 +24,16 @@ img {
 }
 
 /* --------- ball */
-#ball {
-    font-size: 5rem;
+#ball > img{
+    width: 120px;
+    height: 120px;
 }
 
 /* --------- choices section*/
 .selection {
     font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
     font-size: 1.5rem;
-    transition: 100ms;
+    transition: 250ms;
     color: #00ff00;
     padding: 1rem;
     border: 2px solid #00ff00;
