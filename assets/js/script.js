@@ -10,6 +10,9 @@ let yourChoice
 let gkChoice
 let result
 
+/*
+the users choice on which direction to shoot
+*/
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     yourChoice = e.target.id
     yourChoiceDisplay.innerHTML = yourChoice
@@ -17,6 +20,9 @@ possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click'
     getResult()
 }))
 
+/*
+generate a random number which determines the direction the gk dives
+*/
 function generateGkChoice() {
     let randomNumber = Math.floor(Math.random() * 3 + 1)
 
@@ -32,6 +38,10 @@ function generateGkChoice() {
     gkChoiceDisplay.innerHTML = gkChoice
 }
 
+/*
+* outcome of the result depending if user shoots same direction gk dives
+* score increases depending on outcome above
+*/
 function getResult() {
     if (yourChoice === gkChoice) {
         result = "WHAT A SAVE!!!"
