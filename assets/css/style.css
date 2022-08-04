@@ -13,24 +13,25 @@ body {
 h1 {
     text-align: center;
     color: #00ff00;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.2;
 }
 
 /* --------- goal image */
 img {
-    width: 100%;
+    width: 600px;
+    height: auto;
 }
 
 /* --------- ball */
 #ball {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 /* --------- choices section*/
 .selection {
     font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     transition: 100ms;
     color: #00ff00;
     padding: 1rem;
@@ -57,24 +58,80 @@ img {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 0.4rem;
 }
 
 #your-score, #gk-score {
     color: #00ff00;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 
 /* --------- results */
 h3 {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 #result {
     color: #00ff00;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     text-align: center;
     line-height: 1.2;
+}
+
+/* --------- media query */
+@media screen and (max-width: 585px) {
+    h1 {
+        text-align: center;
+        color: #00ff00;
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    img {
+        width: 350px;
+        height: auto;
+    }
+
+    #scoreboard {
+        color: #ffffff;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding-top: 0.4rem;
+    }
+
+    #your-score, #gk-score {
+        color: #00ff00;
+        font-size: 1.5rem;
+    }
+
+    #ball {
+        font-size: 3rem;
+    }
+
+    .selection {
+        font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+        font-size: 0.8rem;
+        transition: 100ms;
+        color: #00ff00;
+        padding: 1rem;
+        border: 2px solid #00ff00;
+        background-color: black;
+        border-radius: 8px;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+    
+    #result {
+        color: #00ff00;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.2;
+    }
+
 }
