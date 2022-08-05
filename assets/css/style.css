@@ -109,8 +109,9 @@ h3 {
         font-size: 1.5rem;
     }
 
-    #ball {
-        font-size: 3rem;
+    #ball > img{
+        width: 80px;
+        height: 80px;
     }
 
     .selection {
