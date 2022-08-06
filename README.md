@@ -38,3 +38,10 @@ To achieve the strategic goals, I included the following features:
 * Retro style buttons with hover effect.
 * A results section.
 * Responsive alert.
+
+## Skeleton
+I created wifreframes using [Balsamiq](https://balsamiq.com/). Please note the website has slightly changed since creating the wireframes.
+![Desktop Wireframe](assets/images/wf-desktop.png)
+![Tablet Wireframe](assets/images/wf-tablet.png)
+![Mobile Wireframe](assets/images/wf-mobile.png)
+
