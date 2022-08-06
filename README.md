@@ -105,9 +105,11 @@ A hover effect was used on the choices buttons. A scale and colour change was us
 ### Deployment
 I followed the steps below to deploy my webpage:
 
-Log into GitHub.
-Select project repository you want to deploy.
-Select 'Settings' in the menu at the top.
-Select 'Pages' on the left side menu.
-In the scource section, select branch 'Master' and save.
-The page will produce your websites URL as seen below.
+1. Log into GitHub.
+2. Select project repository you want to deploy.
+3. Select 'Settings' in the menu at the top.
+4. Select 'Pages' on the left side menu.
+5. In the scource section, select branch 'Master' and save.
+6. The page will produce your websites URL as seen below.
+
+![Deployment](assets/images/deployment.png)
