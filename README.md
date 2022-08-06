@@ -9,4 +9,23 @@ Penalty Shootout is a game of chance created to provide entertainment for footba
 ## User Goals
 * To play the game and outscore the goalkeeper.
 
+# UX
+## Strategy 
+Following the core UX principles I firstly decided on the target audience of users and I put myself in their shoes to what features I would want.
+
+### Target Audience:
+* Aged 5-30.
+* Football fans.
+* Enjoys playing games. 
+
+### What the user would want from the website:
+* Multiple choice.
+* Element of chance.
+* Score tracking. 
+
+### This website is best for users: 
+* Retro art style. 
+* Simple game mechanics.
+* Easy to understand and play.
+* Simple asthetics.
 
