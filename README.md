@@ -5,6 +5,7 @@ Penalty Shootout is a game of chance created to provide entertainment for footba
 ## Business Goals
 * Provide entertainment to online users through a game of chance.
 * Create a game that is easy to play and understand.
+* Create a retro style game.
 
 ## User Goals
 * To play the game and outscore the goalkeeper.
@@ -41,7 +42,16 @@ To achieve the strategic goals, I included the following features:
 
 ## Skeleton
 I created wifreframes using [Balsamiq](https://balsamiq.com/). Please note the website has slightly changed since creating the wireframes.
+
 ![Mobile Wireframe](assets/images/wf-mobile.png)
 ![Tablet Wireframe](assets/images/wf-tablet.png)
 ![Desktop Wireframe](assets/images/wf-desktop.png)
 
+## Surface 
+The colours used for the website were chosen to acheive the goals of simplicity and retro gaming style. The green colour was used to highlight the important aspects of the website such as the main heading, result and score. The colours used passed the [Colour Contrast Accessibility Validator](https://color.a11y.com/).
+
+![Colour Contrast Validator](assets/images/colour-contrast-validator.png)
+
+I decided to use the Start Press 2P font from [Google Fonts](https://fonts.google.com/) as this provide a retro gaming style to the webpage acheiving the business goals.
+
+A hover effect was used on the choices buttons. A scale and colour change was used to highlight the buttons and users options.
