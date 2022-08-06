@@ -29,3 +29,12 @@ Following the core UX principles I firstly decided on the target audience of use
 * Easy to understand and play.
 * Simple asthetics.
 
+## Scope
+To achieve the strategic goals, I included the following features:
+* Header with retro gaming font.
+* Scoreboard with points tracker.
+* Cartoon style goal and goalkeeper.
+* Cartoon style retro football.
+* Retro style buttons with hover effect.
+* A results section.
+* Responsive alert.
