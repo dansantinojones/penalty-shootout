@@ -101,3 +101,13 @@ A hover effect was used on the choices buttons. A scale and colour change was us
 
 [Am I Responsive](https://ui.dev/amiresponsive)
 * Am I Responsive was used to obtain final images of my website across different device sizes.
+
+### Deployment
+I followed the steps below to deploy my webpage:
+
+Log into GitHub.
+Select project repository you want to deploy.
+Select 'Settings' in the menu at the top.
+Select 'Pages' on the left side menu.
+In the scource section, select branch 'Master' and save.
+The page will produce your websites URL as seen below.
