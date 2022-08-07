@@ -59,6 +59,14 @@ I decided to use the Start Press 2P font from [Google Fonts](https://fonts.googl
 
 A hover effect was used on the choices buttons. A scale and colour change was used to highlight the buttons and users options.
 
+## Features Left To Implement
+I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
+
+* Background music.
+* Online multiplayer.
+* Animate ball. 
+* Animate goalkeeper.
+
 ## Technologies Used
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * HTML was used as the building block of the projects content and structure.
