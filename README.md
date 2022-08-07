@@ -116,3 +116,15 @@ I followed the steps below to deploy my webpage:
 6. The page will produce your websites URL as seen below.
 
 ![Deployment](assets/images/deployment.png)
+
+# Credits 
+
+## Code
+* General coding queries were answered by [W3School](https://www.w3schools.com/).
+* Assistance with JavaScript code from [Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ).
+
+## Content
+* The Favicon used was from [Favicon](https://favicon.io/).
+
+## Media 
+* Images were created using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html).
