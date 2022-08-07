@@ -105,7 +105,10 @@ A hover effect was used on the choices buttons. A scale and colour change was us
 [Am I Responsive](https://ui.dev/amiresponsive)
 * Am I Responsive was used to obtain final images of my website across different device sizes.
 
-### Deployment
+[Responsively](https://responsively.app/)
+* Responsively App was used to test website across different screen sizes. 
+
+## Deployment
 I followed the steps below to deploy my webpage:
 
 1. Log into GitHub.
