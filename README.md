@@ -40,6 +40,9 @@ To achieve the strategic goals, I included the following features:
 * A results section.
 * Responsive alert.
 
+## Structure
+I decided it would be best to keep the game on a single page as this would keep it easy to play and understand acheiving the business goals. The initial structure of the page followed title > goal > ball > direction buttons > score with an alert popping up on screen with the outcome. However, this was slightly changed to prioritise important information such as the score and result.
+
 ## Skeleton
 I created wifreframes using [Balsamiq](https://balsamiq.com/). Please note the website has slightly changed since creating the wireframes.
 
