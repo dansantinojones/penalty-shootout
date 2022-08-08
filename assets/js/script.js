@@ -47,6 +47,7 @@ function getResult() {
         result = "WHAT A SAVE!!!"
         gkScore = gkScore+1
         gkScoreNumber.innerHTML = gkScore
+        }
     }
 
     if (yourChoice !== gkChoice) {
@@ -55,4 +56,3 @@ function getResult() {
         yourScoreNumber.innerHTML = yourScore
     }
     resultDisplay.innerHTML = result
-}
