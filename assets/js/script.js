@@ -1,58 +1,92 @@
-let yourChoiceDisplay = document.getElementById('your-choice')
-let gkChoiceDisplay = document.getElementById('gk-choice')
-let resultDisplay = document.getElementById('result')
-let possibleChoice = document.querySelectorAll('button')
-let yourScoreNumber = document.getElementById('your-score')
-let gkScoreNumber = document.getElementById('gk-score')
-let yourScore = 0
-let gkScore = 0
-let yourChoice
-let gkChoice
-let result
+const yourChoiceDisplay = document.getElementById('your-choice');
+const gkChoiceDisplay = document.getElementById('gk-choice');
+const resultDisplay = document.getElementById('result');
+const possibleChoice = document.querySelectorAll('button');
+const yourScoreNumber = document.getElementById('your-score');
+const gkScoreNumber = document.getElementById('gk-score');
+const computerState = document.getElementById('computer-state');
+const humanState = document.getElementById('human-state');
+const COMPUTER_SHOOTING = 1;
+const HUMAN_SHOOTING = 2;
+let humanScore = 0;
+let computerScore = 0;
+let humanChoice;
+let computerChoice;
+let result;
+let playingState = HUMAN_SHOOTING;
 
 /*
 the users choice on which direction to shoot
 */
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    yourChoice = e.target.id
-    yourChoiceDisplay.innerHTML = yourChoice
-    generateGkChoice()
-    getResult()
-}))
+    humanChoice = e.target.id;
+    yourChoiceDisplay.innerHTML = humanChoice;
+    generateComputerChoice();
+    updateScore();
+}));
 
 /*
 generate a random number which determines the direction the gk dives
 */
-function generateGkChoice() {
-    let randomNumber = Math.floor(Math.random() * 3 + 1)
+function generateComputerChoice() {
+    let randomNumber = Math.floor(Math.random() * 3 + 1);
 
     if (randomNumber === 1) {
-        gkChoice = 'Left'
+        computerChoice = 'Left';
     }
     if (randomNumber === 2) {
-        gkChoice = 'Middle'
+        computerChoice = 'Middle';
     }
     if (randomNumber === 3) {
-        gkChoice = 'Right'
+        computerChoice = 'Right';
     }
-    gkChoiceDisplay.innerHTML = gkChoice
+    gkChoiceDisplay.innerHTML = computerChoice;
 }
 
 /*
-* outcome of the result depending if user shoots same direction gk dives
-* score increases depending on outcome above
-*/
-function getResult() {
-    if (yourChoice === gkChoice) {
-        result = "WHAT A SAVE!!!"
-        gkScore = gkScore+1
-        gkScoreNumber.innerHTML = gkScore
+ * outcome of the result depending if user shoots same direction gk dives
+ * score increases depending on outcome above
+ */
+function updateScore() {
+    let result = "";
+    if (playingState === COMPUTER_SHOOTING) {
+        if (computerChoice === humanChoice) {
+            result = "WHAT A SAVE!!!";
+        }
+        else {
+            computerScore = computerScore + 1;
+            result = "GOOOAL!!!";
+            gkScoreNumber.innerHTML = computerScore;
+        }
+    } else if (playingState === HUMAN_SHOOTING) {
+        if (computerChoice === humanChoice) {
+            result = "WHAT A SAVE!!!";
+        }
+        else {
+            humanScore = humanScore + 1;
+            result = "GOOOAL!!!";
+            yourScoreNumber.innerHTML = humanScore;
+        }
     }
+    resultDisplay.innerHTML = result;
+    
+    // Update messages
+    renderPlayerState();
 
-    if (yourChoice !== gkChoice) {
-        result = "GOOOAL!!!"
-        yourScore = yourScore+1
-        yourScoreNumber.innerHTML = yourScore
+    // Set the game state
+    setState();
+}
+
+function setState() {
+    playingState = playingState === HUMAN_SHOOTING ? COMPUTER_SHOOTING : HUMAN_SHOOTING;
+}
+
+function renderPlayerState() {
+    if (playingState === HUMAN_SHOOTING) {
+        computerState.innerHTML = "Computer dived";
+        humanState.innerHTML = "You shot";
+    } else {
+        computerState.innerHTML = "Computer shot";
+        humanState.innerHTML = "You dived";
     }
-    resultDisplay.innerHTML = result
 }
