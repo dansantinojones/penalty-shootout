@@ -83,10 +83,10 @@ function setState() {
 
 function renderPlayerState() {
     if (playingState === HUMAN_SHOOTING) {
-        computerState.innerHTML = "Computer dived";
+        computerState.innerHTML = "Ai dived";
         humanState.innerHTML = "You shot";
     } else {
-        computerState.innerHTML = "Computer shot";
+        computerState.innerHTML = "Ai shot";
         humanState.innerHTML = "You dived";
     }
 }
