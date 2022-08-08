@@ -39,20 +39,20 @@ function generateGkChoice() {
 }
 
 /*
-* outcome of the result depending if user shoots same direction gk dives
-* score increases depending on outcome above
-*/
+ * outcome of the result depending if user shoots same direction gk dives
+ * score increases depending on outcome above
+ */
 function getResult() {
     if (yourChoice === gkChoice) {
         result = "WHAT A SAVE!!!"
-        gkScore = gkScore+1
+        gkScore = gkScore + 1
         gkScoreNumber.innerHTML = gkScore
-        }
     }
+}
 
-    if (yourChoice !== gkChoice) {
-        result = "GOOOAL!!!"
-        yourScore = yourScore+1
-        yourScoreNumber.innerHTML = yourScore
-    }
-    resultDisplay.innerHTML = result
+if (yourChoice !== gkChoice) {
+    result = "GOOOAL!!!"
+    yourScore = yourScore + 1
+    yourScoreNumber.innerHTML = yourScore
+}
+resultDisplay.innerHTML = result
