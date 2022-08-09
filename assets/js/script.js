@@ -99,13 +99,10 @@ function renderPlayerState() {
 }
 
 function endWinner() {
-    if (humanScore > winningScore && computerScore < winningScore) {
+    if (humanScore === 5 && computerScore < 5) {
         endMessage.innerHTML = "YOU WIN!!!"
     }
-    if (humanScore < winningScore && computerScore > winningScore) {
+    if (humanScore < 5 && computerScore === 5) {
         endMessage.innerHTML = "YOU LOSE!!!"
-    }
-    if (humanScore === 5 && computerScore === 5) {
-        endMessage.innerHTML = "DRAW!!!"
     }
 }
