@@ -1,5 +1,7 @@
 # Penalty Shootout
 
+![Am I Responsive Image](assets/images/am-i-responsive.png)
+
 Penalty Shootout is a game of chance created to provide entertainment for football fans. The art style is retro arcade to provide a nostalgic feel to old school gaming whislt keeping the concept simple and easy to play. 
 
 Here is a link to the live website: [https://dansantinojones.github.io/penalty-shootout/](https://dansantinojones.github.io/penalty-shootout/)
