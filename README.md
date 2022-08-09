@@ -65,6 +65,12 @@ The title is used for branding purposes. The name was chosen to specify what typ
 
 ![Title](assets/images/title.png)
 
+## Scoreboard
+The scoreboard is placed towards the top of the screen so it is easily visable to the user at all times. The colour green is used to highlight the scores. The numbers increases every time a goal is scored and helps the user keep track of the score.
+
+![Scoreboard 0-0](assets/images/scoreboard1.png)
+![Scoreboard 3-1](assets/images/scoreboard2.png)
+
 ## Image 
 The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
 
