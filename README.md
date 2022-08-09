@@ -77,6 +77,12 @@ I quickly identified the need to notify the user when they are shooting and savi
 ![Your turn to shoot](assets/images/turn-shoot.png)
 ![Your turn to save](assets/images/turn-save.png)
 
+## End Winner
+Once the score reaches 5 the winner is announced in replcement of the turn alert above. This will indicate to the user if they or the computer have won.
+
+![You win!!!](assets/images/you-win.png)
+![You lose!!!](assets/images/you-lose.png)
+
 ## Image 
 The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
 
