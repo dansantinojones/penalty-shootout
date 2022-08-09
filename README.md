@@ -62,7 +62,13 @@ A hover effect was used on the choices buttons. A scale and colour change was us
 # Features
 ## Title 
 The title is used for branding purposes. The name was chosen to specify what type of game it is whilst using the Start Press 2P font for a retro design.
+
 ![Title](assets/images/title.png)
+
+## Image 
+The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
+
+![Goal, goalkeeper and ball](assets/images/goal-gk-ball.png)
 
 ## Features Left To Implement
 I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
