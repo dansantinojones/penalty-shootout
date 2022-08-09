@@ -7,6 +7,7 @@ const gkScoreNumber = document.getElementById('gk-score');
 const computerState = document.getElementById('computer-state');
 const humanState = document.getElementById('human-state');
 const whosTurn = document.getElementById('turn');
+const endMessage = document.getElementById('end')
 const COMPUTER_SHOOTING = 1;
 const HUMAN_SHOOTING = 2;
 let humanScore = 0;
@@ -16,6 +17,7 @@ let computerChoice;
 let result;
 let playingState = HUMAN_SHOOTING;
 let turnMessage;
+let winningScore = 4;
 
 /*
 the users choice on which direction to shoot
@@ -58,6 +60,7 @@ function updateScore() {
             computerScore = computerScore + 1;
             result = "GOOOAL!!!";
             gkScoreNumber.innerHTML = computerScore;
+            endWinner();
         }
     } else if (playingState === HUMAN_SHOOTING) {
         if (computerChoice === humanChoice) {
@@ -66,6 +69,7 @@ function updateScore() {
             humanScore = humanScore + 1;
             result = "GOOOAL!!!";
             yourScoreNumber.innerHTML = humanScore;
+            endWinner();
         }
     }
     resultDisplay.innerHTML = result;
@@ -91,5 +95,17 @@ function renderPlayerState() {
         computerState.innerHTML = "Ai shot";
         humanState.innerHTML = "You dived";
         whosTurn.innerHTML = "SHOOT";
+    }
+}
+
+function endWinner() {
+    if (humanScore > winningScore && computerScore < winningScore) {
+        endMessage.innerHTML = "YOU WIN!!!"
+    }
+    if (humanScore < winningScore && computerScore > winningScore) {
+        endMessage.innerHTML = "YOU LOSE!!!"
+    }
+    if (humanScore === 5 && computerScore === 5) {
+        endMessage.innerHTML = "DRAW!!!"
     }
 }
