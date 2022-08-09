@@ -65,13 +65,13 @@ img {
 
 #your-score, #gk-score {
     color: #00ff00;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 
 /* --------- results */
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #result {
@@ -86,7 +86,7 @@ h3 {
     h1 {
         text-align: center;
         color: #00ff00;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 1.2;
     }
 
@@ -100,13 +100,13 @@ h3 {
         display: flex;
         text-align: center;
         justify-content: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-top: 0.4rem;
     }
 
     #your-score, #gk-score {
         color: #00ff00;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     #ball > img{
@@ -116,7 +116,7 @@ h3 {
 
     .selection {
         font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         transition: 100ms;
         color: #00ff00;
         padding: 1rem;
@@ -126,7 +126,8 @@ h3 {
     }
 
     h3 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        line-height: 1.2;
     }
     
     #result {
@@ -146,7 +147,7 @@ h3 {
 
     .selection {
         font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         transition: 100ms;
         color: #00ff00;
         padding: 1rem;
@@ -165,5 +166,10 @@ h3 {
         font-size: 1rem;
         text-align: center;
         line-height: 1.2;
+    }
+
+    h3 {
+        font-size: 0.5rem;
+        line-height: 1.2rem;
     }
 }
