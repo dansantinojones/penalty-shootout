@@ -158,6 +158,9 @@ I believe the website has plently of opportunities to develop and improve in the
 [Responsively](https://responsively.app/)
 * Responsively App was used to test website across different screen sizes. 
 
+[Lucidcharts](https://www.lucidchart.com/pages/)
+* Lucidcharts was used to visulise if statements.
+
 ## Deployment
 I followed the steps below to deploy my webpage:
 
