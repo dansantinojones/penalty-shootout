@@ -7,17 +7,15 @@ const gkScoreNumber = document.getElementById('gk-score');
 const computerState = document.getElementById('computer-state');
 const humanState = document.getElementById('human-state');
 const whosTurn = document.getElementById('turn');
-const endMessage = document.getElementById('end')
+const endMessage = document.getElementById('end');
 const COMPUTER_SHOOTING = 1;
 const HUMAN_SHOOTING = 2;
 let humanScore = 0;
 let computerScore = 0;
 let humanChoice;
 let computerChoice;
-let result;
 let playingState = HUMAN_SHOOTING;
 let turnMessage;
-let winningScore = 4;
 
 /*
 the users choice on which direction to shoot
@@ -90,7 +88,7 @@ function renderPlayerState() {
         computerState.innerHTML = "CPU dived";
         humanState.innerHTML = "You shot";
         whosTurn.innerHTML = "SAVE";
-        turnMessage
+        turnMessage;
     } else {
         computerState.innerHTML = "CPU shot";
         humanState.innerHTML = "You dived";
@@ -100,9 +98,9 @@ function renderPlayerState() {
 
 function endWinner() {
     if (humanScore === 5 && computerScore < 5) {
-        endMessage.innerHTML = "YOU WIN!!!"
+        endMessage.innerHTML = "YOU WIN!!!";
     }
     if (humanScore < 5 && computerScore === 5) {
-        endMessage.innerHTML = "YOU LOSE!!!"
+        endMessage.innerHTML = "YOU LOSE!!!";
     }
 }
