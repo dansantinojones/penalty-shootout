@@ -185,10 +185,24 @@ I tested to ensure the page work on Chrome, Mozilla and Safari. I confirmed the 
 ## Solved Bugs
 
 ## Validator Testing 
+HTML
+* The HTML document was tested and only one error was returned when passing through the official W3C validator. The error is an empty heading. However, this is used for the results section therefore will remain empty.
+
+![HTML Validator](assets/images/html-validator.png)
+
 CSS 
-* The HTML document was tested and no errors were returned when passing through the official W3C validator.
+* The CSS document was tested and no errors were returned when passing through the official W3C validator.
 
 ![CSS Validator](assets/images/css-validator.png)
+
+Accessibility 
+* I confirm the colours and font chosen are easy to read and accessible when running lighthouse in devtools.
+
+Mobile:
+![Lighthouse Mobile](assets/images/lh-mobile.png)
+
+Desktop:
+![Lighthouse Desktop](assets/images/lh-desktop.png)
 
 ## Deployment
 I followed the steps below to deploy my webpage:
