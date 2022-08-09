@@ -2,14 +2,14 @@
 
 ![Am I Responsive Image](assets/images/am-i-responsive.png)
 
-Penalty Shootout is a game of chance created to provide entertainment for football fans. The art style is retro arcade to provide a nostalgic feel to old school gaming whislt keeping the concept simple and easy to play. 
+Penalty Shootout is a game of chance created to provide entertainment for football fans. The art style is retro arcade to provide a nostalgic feel to old-school gaming while keeping the concept simple and easy to play. 
 
 Here is a link to the live website: [https://dansantinojones.github.io/penalty-shootout/](https://dansantinojones.github.io/penalty-shootout/)
 
 ## Business Goals
 * Provide entertainment to online users through a game of chance.
 * Create a game that is easy to play and understand.
-* Create a retro style game.
+* Create a retro-style game.
 
 ## User Goals
 * To play the game and outscore the goalkeeper.
@@ -32,7 +32,7 @@ Following the core UX principles I firstly decided on the target audience of use
 * Retro art style. 
 * Simple game mechanics.
 * Easy to understand and play.
-* Simple asthetics.
+* Simple aesthetics.
 
 ## Scope
 To achieve the strategic goals, I included the following features:
@@ -45,23 +45,23 @@ To achieve the strategic goals, I included the following features:
 * Responsive alert.
 
 ## Structure
-I decided it would be best to keep the game on a single page as this would keep it easy to play and understand acheiving the business goals. The initial structure of the page followed title > goal > ball > direction buttons > score with an alert popping up on screen with the outcome. However, this was slightly changed to prioritise important information such as the score and result.
+I decided it would be best to keep the game on a single page as this would keep it easy to play and understand achieving the business goals. The initial structure of the page followed title > goal > ball > direction buttons > score with an alert popping up on the screen with the outcome. However, this was slightly changed to prioritise important information such as the score and result.
 
 ## Skeleton
-I created wifreframes using [Balsamiq](https://balsamiq.com/). Please note the website has slightly changed since creating the wireframes.
+I created wireframes using [Balsamiq](https://balsamiq.com/). Please note the website has slightly changed since creating the wireframes.
 
 ![Mobile Wireframe](assets/images/wf-mobile.png)
 ![Tablet Wireframe](assets/images/wf-tablet.png)
 ![Desktop Wireframe](assets/images/wf-desktop.png)
 
 ## Surface 
-The colours used for the website were chosen to acheive the goals of simplicity and retro gaming style. The green colour was used to highlight the important aspects of the website such as the main heading, result and score. The colours used passed the [Colour Contrast Accessibility Validator](https://color.a11y.com/).
+The colours used for the website were chosen to achieve the goals of simplicity and retro gaming style. The green colour was used to highlight the important aspects of the website such as the main heading, result and score. The colours used passed the [Colour Contrast Accessibility Validator](https://color.a11y.com/).
 
 ![Colour Contrast Validator](assets/images/colour-contrast-validator.png)
 
-I decided to use the Start Press 2P font from [Google Fonts](https://fonts.google.com/) as this provide a retro gaming style to the webpage acheiving the business goals.
+I decided to use the Start Press 2P font from [Google Fonts](https://fonts.google.com/) as this provides a retro gaming style to the webpage achieving the business goals.
 
-A hover effect was used on the choices buttons. A scale and colour change was used to highlight the buttons and users options.
+A hover effect was used on the choices buttons. A scale and colour change were used to highlight the buttons and users' options.
 
 # Features
 ## Title 
@@ -76,7 +76,7 @@ The scoreboard is placed towards the top of the screen so it is easily visable t
 ![Scoreboard 3-2](assets/images/scoreboard2.png)
 
 ## Who's Turn
-I quickly identified the need to notify the user when they are shooting and saving as this was initially unclear. This will benefit first time users by making it clear how to play acheiving the business goals.
+I quickly identified the need to notify the user when they are shooting and saving as this was initially unclear. This will benefit first-time users by making it clear how to play in achieving the business goals.
 
 ![Your turn to shoot](assets/images/turn-shoot.png)
 ![Your turn to save](assets/images/turn-save.png)
@@ -93,7 +93,7 @@ The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/
 ![Goal, goalkeeper and ball](assets/images/goal-gk-ball.png)
 
 ## Buttons
-The 'Left', 'Middle' and 'Right' buttons are created so the user can chose which direction they are shooting and diving. The hover effect was used to scale and change the colours of the buttons highlighing the importance of the users choice.
+The 'Left', 'Middle' and 'Right' buttons are created so the user can choose which direction to shoot and dive. The hover effect was used to scale and change the colours of the buttons highlighting the importance of the user's choice.
 
 ![Buttons](assets/images/button.png)
 ![Buttons hover](assets/images/button-hover.png)
@@ -114,7 +114,7 @@ I believe the website has plently of opportunities to develop and improve in the
 
 ## Technologies Used
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* HTML was used as the building block of the projects content and structure.
+* HTML was used as the building block of the content and structure of the project.
 
 [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 * CSS was used to style the web content across the page.
@@ -180,14 +180,14 @@ I believe the website has plently of opportunities to develop and improve in the
 4. As a user I want the to know the decision of the computer.
 * The results section lets the user know which direction they and the computer chose and the outcome.  
 
-5. As a user I want a game that is mobile friendly to play on the go.
+5. As a user I want a game that is mobile-friendly to play on the go.
 * The game was designed mobile-first as most users will be playing via mobile phone. 
 
-6. As a user and a football fan I want the game to resemble a real life penalty shootout.
-* The user takes turns against the computer to shoot and save. The score increasing every time a goal goes unsaved.
+6. As a user and a football fan I want the game to resemble a real-life penalty shootout.
+* The user takes turns against the computer to shoot and save. The score increases every time a goal goes unsaved.
 
 # Testing 
-I tested to ensure the page work on Chrome, Mozilla and Safari. I confirmed the project is responsive having tested screen size using the [Google Developer Tools](9https://developer.chrome.com/docs/devtools/) toolbar and [Responsively](https://responsively.app/). I have tested the buttons and the scoring system to ensure the correct results are shown.
+I tested to ensure the page worked on Chrome, Mozilla and Safari. I confirmed the project is responsive having tested screen size using the [Google Developer Tools](9https://developer.chrome.com/docs/devtools/) toolbar and [Responsively](https://responsively.app/). I have tested the buttons and the scoring system to ensure the correct results are shown.
 
 ## Solved Bugs
 
@@ -203,11 +203,11 @@ CSS
 ![CSS Validator](assets/images/css-validator.png)
 
 JavaScript 
-* The JavaScript validator identified a number of errors within the file. 
+* The JavaScript validator identified several errors within the file. 
 
 ![Javacript Validator Errors](assets/images/javascript-validator.png)
 
-The variables that were defined but not used have now been removed. Missing secicolon's were added.
+The variables that were defined but not used have now been removed. Missing semicolon's were added.
 
 Accessibility 
 * I confirm the colours and font chosen are easy to read and accessible when running lighthouse in devtools.
@@ -222,11 +222,11 @@ Desktop:
 I followed the steps below to deploy my webpage:
 
 1. Log into GitHub.
-2. Select project repository you want to deploy.
+2. Select the project repository you want to deploy.
 3. Select 'Settings' in the menu at the top.
 4. Select 'Pages' on the left side menu.
-5. In the scource section, select branch 'Master' and save.
-6. The page will produce your websites URL as seen below.
+5. In the source section, select branch 'Master' and save.
+6. The page will produce your website's URL as seen below.
 
 ![Deployment](assets/images/deployment.png)
 
