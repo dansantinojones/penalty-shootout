@@ -108,25 +108,6 @@ I believe the website has plently of opportunities to develop and improve in the
 * Animate ball. 
 * Animate goalkeeper.
 
-# User Stories
-1. As a user I want to play a game that involves an element of chance.
-* The design is a game of chance, therefore there is an element of luck to winning.
-
-2. As a user I want to play a game that is simple and easy to follow.
-* There are simple game mechanics implemented. The user is prompted with when to shoot and when to save making the game easy to follow.
-
-3. As a user I want the game to track the score.
-* The scoreboard was designed to keep track of the users and computers goals scored.
-
-4. As a user I want the to know the decision of the computer.
-* The results section lets the user know which direction they and the computer chose and the outcome.  
-
-5. As a user I want a game that is mobile friendly to play on the go.
-* The game was designed mobile-first as most users will be playing via mobile phone. 
-
-6. As a user and a football fan I want the game to resemble a real life penalty shootout.
-* The user takes turns against the computer to shoot and save. The score increasing every time a goal goes unsaved.
-
 ## Technologies Used
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * HTML was used as the building block of the projects content and structure.
@@ -178,6 +159,36 @@ I believe the website has plently of opportunities to develop and improve in the
 
 [Lucidcharts](https://www.lucidchart.com/pages/)
 * Lucidcharts was used to visulise if statements.
+
+# User Stories
+1. As a user I want to play a game that involves an element of chance.
+* The design is a game of chance, therefore there is an element of luck to winning.
+
+2. As a user I want to play a game that is simple and easy to follow.
+* There are simple game mechanics implemented. The user is prompted with when to shoot and when to save making the game easy to follow.
+
+3. As a user I want the game to track the score.
+* The scoreboard was designed to keep track of the users and computers goals scored.
+
+4. As a user I want the to know the decision of the computer.
+* The results section lets the user know which direction they and the computer chose and the outcome.  
+
+5. As a user I want a game that is mobile friendly to play on the go.
+* The game was designed mobile-first as most users will be playing via mobile phone. 
+
+6. As a user and a football fan I want the game to resemble a real life penalty shootout.
+* The user takes turns against the computer to shoot and save. The score increasing every time a goal goes unsaved.
+
+# Testing 
+I tested to ensure the page work on Chrome, Mozilla and Safari. I confirmed the project is responsive having tested screen size using the [Google Developer Tools](9https://developer.chrome.com/docs/devtools/) toolbar and [Responsively](https://responsively.app/). I have tested the buttons and the scoring system to ensure the correct results are shown.
+
+## Solved Bugs
+
+## Validator Testing 
+CSS 
+* The HTML document was tested and no errors were returned when passing through the official W3C validator.
+
+![CSS Validator](assets/images/css-validator.png)
 
 ## Deployment
 I followed the steps below to deploy my webpage:
