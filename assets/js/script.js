@@ -6,6 +6,7 @@ const yourScoreNumber = document.getElementById('your-score');
 const gkScoreNumber = document.getElementById('gk-score');
 const computerState = document.getElementById('computer-state');
 const humanState = document.getElementById('human-state');
+const whosTurn = document.getElementById('turn');
 const COMPUTER_SHOOTING = 1;
 const HUMAN_SHOOTING = 2;
 let humanScore = 0;
@@ -14,6 +15,7 @@ let humanChoice;
 let computerChoice;
 let result;
 let playingState = HUMAN_SHOOTING;
+let turnMessage;
 
 /*
 the users choice on which direction to shoot
@@ -85,8 +87,11 @@ function renderPlayerState() {
     if (playingState === HUMAN_SHOOTING) {
         computerState.innerHTML = "Ai dived";
         humanState.innerHTML = "You shot";
+        whosTurn.innerHTML = "SAVE"
+        turnMessage
     } else {
         computerState.innerHTML = "Ai shot";
         humanState.innerHTML = "You dived";
+        whosTurn.innerHTML = "SHOOT"
     }
 }
