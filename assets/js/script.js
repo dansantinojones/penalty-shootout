@@ -87,12 +87,12 @@ function setState() {
 
 function renderPlayerState() {
     if (playingState === HUMAN_SHOOTING) {
-        computerState.innerHTML = "Ai dived";
+        computerState.innerHTML = "CPU dived";
         humanState.innerHTML = "You shot";
         whosTurn.innerHTML = "SAVE";
         turnMessage
     } else {
-        computerState.innerHTML = "Ai shot";
+        computerState.innerHTML = "CPU shot";
         humanState.innerHTML = "You dived";
         whosTurn.innerHTML = "SHOOT";
     }
