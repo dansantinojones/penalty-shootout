@@ -153,6 +153,9 @@ I believe the website has plently of opportunities to develop and improve in the
 [W3C CSS Validation Service](https://validator.w3.org/#validate_by_input)
 * W3C Validator was used to validate the CSS code.
 
+[JavaScript Validator](https://beautifytools.com/)
+* JavaScript Validator was used to validate the JavaScript code.
+
 [Am I Responsive](https://ui.dev/amiresponsive)
 * Am I Responsive was used to obtain final images of my website across different device sizes.
 
@@ -196,6 +199,13 @@ CSS
 * The CSS document was tested and no errors were returned when passing through the official W3C validator.
 
 ![CSS Validator](assets/images/css-validator.png)
+
+JavaScript 
+* The JavaScript validator identified a number of errors within the file. 
+
+![Javacript Validator Errors](assets/images/javascript-validator.png)
+
+The variables that were defined but not used have now been removed. Missing secicolon's were added.
 
 Accessibility 
 * I confirm the colours and font chosen are easy to read and accessible when running lighthouse in devtools.
