@@ -71,6 +71,12 @@ The scoreboard is placed towards the top of the screen so it is easily visable t
 ![Scoreboard 0-0](assets/images/scoreboard1.png)
 ![Scoreboard 3-2](assets/images/scoreboard2.png)
 
+## Who's Turn
+I quickly identified the need to notify the user when they are shooting and saving as this was initially unclear. This will benefit first time users by making it clear how to play acheiving the business goals.
+
+![Your turn to shoot](assets/images/turn-shoot.png)
+![Your turn to save](assets/images/turn-save.png)
+
 ## Image 
 The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
 
