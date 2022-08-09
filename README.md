@@ -167,6 +167,9 @@ I believe the website has plently of opportunities to develop and improve in the
 [Lucidcharts](https://www.lucidchart.com/pages/)
 * Lucidcharts was used to visulise if statements.
 
+[Grammarly](https://app.grammarly.com/?network=g&utm_source=google&matchtype=e&gclid=EAIaIQobChMIpt7_l-i6-QIVme7tCh15kwxvEAAYASAAEgIJrPD_BwE&placement=&q=brand&utm_content=brandcorerow&gclsrc=aw.ds&utm_campaign=brand_core_row&utm_medium=cpc&utm_term=grammarly)
+* Grammarly was used to identify spelling and grammar mistakes.
+
 # User Stories
 1. As a user I want to play a game that involves an element of chance.
 * The design is a game of chance, therefore there is an element of luck to winning.
