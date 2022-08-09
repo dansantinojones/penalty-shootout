@@ -70,6 +70,12 @@ The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/
 
 ![Goal, goalkeeper and ball](assets/images/goal-gk-ball.png)
 
+## Buttons
+The 'Left', 'Middle' and 'Right' buttons are created so the user can chose which direction they are shooting and diving. The hover effect was used to scale and change the colours of the buttons highlighing the importance of the users choice.
+
+![Buttons](assets/images/button.png)
+![Buttons hover](assets/images/button-hover.png)
+
 ## Features Left To Implement
 I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
 
