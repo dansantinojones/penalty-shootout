@@ -54,8 +54,7 @@ function updateScore() {
     if (playingState === COMPUTER_SHOOTING) {
         if (computerChoice === humanChoice) {
             result = "WHAT A SAVE!!!";
-        }
-        else {
+        } else {
             computerScore = computerScore + 1;
             result = "GOOOAL!!!";
             gkScoreNumber.innerHTML = computerScore;
@@ -63,15 +62,14 @@ function updateScore() {
     } else if (playingState === HUMAN_SHOOTING) {
         if (computerChoice === humanChoice) {
             result = "WHAT A SAVE!!!";
-        }
-        else {
+        } else {
             humanScore = humanScore + 1;
             result = "GOOOAL!!!";
             yourScoreNumber.innerHTML = humanScore;
         }
     }
     resultDisplay.innerHTML = result;
-    
+
     // Update messages
     renderPlayerState();
 
@@ -87,11 +85,11 @@ function renderPlayerState() {
     if (playingState === HUMAN_SHOOTING) {
         computerState.innerHTML = "Ai dived";
         humanState.innerHTML = "You shot";
-        whosTurn.innerHTML = "SAVE"
+        whosTurn.innerHTML = "SAVE";
         turnMessage
     } else {
         computerState.innerHTML = "Ai shot";
         humanState.innerHTML = "You dived";
-        whosTurn.innerHTML = "SHOOT"
+        whosTurn.innerHTML = "SHOOT";
     }
 }
