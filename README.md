@@ -69,7 +69,7 @@ The title is used for branding purposes. The name was chosen to specify what typ
 The scoreboard is placed towards the top of the screen so it is easily visable to the user at all times. The colour green is used to highlight the scores. The numbers increases every time a goal is scored and helps the user keep track of the score.
 
 ![Scoreboard 0-0](assets/images/scoreboard1.png)
-![Scoreboard 3-1](assets/images/scoreboard2.png)
+![Scoreboard 3-2](assets/images/scoreboard2.png)
 
 ## Image 
 The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
@@ -81,6 +81,12 @@ The 'Left', 'Middle' and 'Right' buttons are created so the user can chose which
 
 ![Buttons](assets/images/button.png)
 ![Buttons hover](assets/images/button-hover.png)
+
+## Results 
+The result section firstly displays which direction the user shot or dived depending if it is the users turn. A larger alert is displayed depending is a goal was scored or saved. This builds dramatic effect and is highlighted in green so demonstrate the importance. 
+
+![Goal result](assets/images/result1.png)
+![What a save result](assets/images/result2.png)
 
 ## Features Left To Implement
 I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
