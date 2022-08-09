@@ -175,3 +175,6 @@ I followed the steps below to deploy my webpage:
 
 ## Media 
 * Images were created using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html).
+
+# Acknowledgements
+I would like to thank my course mentor Guido Cecilio for his support and guidance on this project.
