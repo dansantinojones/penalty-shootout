@@ -59,6 +59,11 @@ I decided to use the Start Press 2P font from [Google Fonts](https://fonts.googl
 
 A hover effect was used on the choices buttons. A scale and colour change was used to highlight the buttons and users options.
 
+# Features
+## Title 
+The title is used for branding purposes. The name was chosen to specify what type of game it is whilst using the Start Press 2P font for a retro design.
+![Title](assets/images/title.png)
+
 ## Features Left To Implement
 I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
 
