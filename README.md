@@ -2,9 +2,17 @@
 
 ![Am I Responsive Image](assets/images/am-i-responsive.png)
 
-Penalty Shootout is a game of chance created to provide entertainment for football fans. The art style is retro arcade to provide a nostalgic feel to old-school gaming while keeping the concept simple and easy to play. 
+Penalty Shootout is a game of chance created to provide entertainment for football fans. The art style is retro arcade to provide a nostalgic feel to old-school gaming while keeping the concept simple and easy to play. Play against the computer (CPU) by taking turns to shoot and save, the first to score 5 is the winner!
 
 Here is a link to the live website: [https://dansantinojones.github.io/penalty-shootout/](https://dansantinojones.github.io/penalty-shootout/)
+
+## How To Play
+* Chose a direction to shoot using the left, middle and right buttons.
+* Check results to see if you scored or if it was saved by the computer.
+* Chose a direction to dive using the left, middle and right buttons.
+* Check results to see if you saved the shot or the computer scored.
+* Keep going until you or the computer score 5 goals.
+* Click the play again button to restart.
 
 ## Business Goals
 * Provide entertainment to online users through a game of chance.
