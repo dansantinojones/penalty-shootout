@@ -202,10 +202,11 @@ I believe the website has plenty of opportunities to develop and improve in the 
 I tested to ensure the page worked on Chrome, Mozilla and Safari. I confirmed the project is responsive having tested screen size using the [Google Developer Tools](9https://developer.chrome.com/docs/devtools/) toolbar and [Responsively](https://responsively.app/). I have tested the buttons and the scoring system to ensure the correct results are shown.
 
 ## Solved Bugs
+I discovered once the score had reached 5 and the win/lose message is displayed, the choices buttons and score were still incrementing. Therefore, I created a JavaScript function to disable the buttons consequently stopping the score at 5. I then used a refresh button for users to play again.
 
 ## Validator Testing 
 HTML
-* The HTML document was tested and only one error was returned when passing through the official W3C validator. The error is an empty heading. However, this is used for the results section therefore will remain empty.
+* The HTML document was tested and only one error was returned when passing through the official W3C validator. The error is an empty heading. However, this is used for the results section and therefore will remain empty.
 
 ![HTML Validator](assets/images/html-validator.png)
 
