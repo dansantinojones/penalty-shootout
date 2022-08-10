@@ -24,7 +24,7 @@ img {
 }
 
 /* --------- ball */
-#ball > img{
+#ball>img {
     width: 110px;
     height: 110px;
 }
@@ -52,7 +52,6 @@ img {
     padding-bottom: 1rem;
 }
 
-
 /* --------- score */
 #scoreboard {
     color: #ffffff;
@@ -63,7 +62,14 @@ img {
     padding-top: 0.4rem;
 }
 
-#refresh > button {
+#your-score,
+#gk-score {
+    color: #00ff00;
+    font-size: 2rem;
+}
+
+/* --------- play again button */
+#refresh>button {
     font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
     font-size: 1rem;
     transition: 250ms;
@@ -74,17 +80,11 @@ img {
     border-radius: 8px;
 }
 
-#refresh > button:hover {
+#refresh>button:hover {
     background-color: #00ff00;
     color: #000000;
     transform: scale(1.2);
 }
-
-#your-score, #gk-score {
-    color: #00ff00;
-    font-size: 2rem;
-}
-
 
 /* --------- results */
 h3 {
@@ -121,7 +121,7 @@ h3 {
         padding-top: 0.4rem;
     }
 
-    #refresh > button {
+    #refresh>button {
         font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
         font-size: 0.8rem;
         transition: 250ms;
@@ -131,19 +131,20 @@ h3 {
         background-color: #000000;
         border-radius: 8px;
     }
-    
-    #refresh > button:hover {
+
+    #refresh>button:hover {
         background-color: #00ff00;
         color: #000000;
         transform: scale(1.2);
     }
 
-    #your-score, #gk-score {
+    #your-score,
+    #gk-score {
         color: #00ff00;
         font-size: 1.2rem;
     }
 
-    #ball > img{
+    #ball>img {
         width: 75px;
         height: 75px;
     }
@@ -163,7 +164,7 @@ h3 {
         font-size: 0.6rem;
         line-height: 1.2;
     }
-    
+
     #result {
         color: #00ff00;
         font-size: 1.3rem;
@@ -190,7 +191,7 @@ h3 {
         border-radius: 8px;
     }
 
-    #ball > img{
+    #ball>img {
         width: 35px;
         height: 35px;
     }
@@ -207,7 +208,7 @@ h3 {
         line-height: 1.2rem;
     }
 
-    #refresh > button {
+    #refresh>button {
         font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
         font-size: 0.5rem;
         transition: 250ms;
@@ -217,8 +218,8 @@ h3 {
         background-color: #000000;
         border-radius: 8px;
     }
-    
-    #refresh > button:hover {
+
+    #refresh>button:hover {
         background-color: #00ff00;
         color: #000000;
         transform: scale(1.2);
