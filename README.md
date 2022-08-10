@@ -114,7 +114,7 @@ The result section firstly displays which direction the user shot or dived depen
 ![What a save result](assets/images/result2.png)
 
 ## Features Left To Implement
-I believe the website has plently of opportunities to develop and improve in the future. The features I would like to implement going forward are:
+I believe the website has plenty of opportunities to develop and improve in the future. The features I would like to implement going forward are:
 
 * Background music.
 * Online multiplayer.
