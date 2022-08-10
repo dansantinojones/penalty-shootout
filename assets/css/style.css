@@ -63,6 +63,23 @@ img {
     padding-top: 0.4rem;
 }
 
+#refresh > button {
+    font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+    font-size: 1rem;
+    transition: 250ms;
+    color: #00ff00;
+    padding: 0.5rem;
+    border: 2px solid #00ff00;
+    background-color: #000000;
+    border-radius: 8px;
+}
+
+#refresh > button:hover {
+    background-color: #00ff00;
+    color: #000000;
+    transform: scale(1.2);
+}
+
 #your-score, #gk-score {
     color: #00ff00;
     font-size: 2rem;
