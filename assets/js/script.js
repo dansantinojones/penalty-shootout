@@ -99,8 +99,21 @@ function renderPlayerState() {
 function endWinner() {
     if (humanScore === 5 && computerScore < 5) {
         endMessage.innerHTML = "YOU WIN!!!";
+        restart();
     }
     if (humanScore < 5 && computerScore === 5) {
         endMessage.innerHTML = "YOU LOSE!!!";
+        restart();
     }
+}
+
+function restart() {
+    if (humanScore || computerScore === 5) {
+        let resetLeftBtn = document.getElementById('Left')
+        let resetMidBtn = document.getElementById('Middle')
+        let resetRightBtn = document.getElementById('Right')
+        resetLeftBtn.disabled = "disabled";
+        resetMidBtn.disabled = "disabled";
+        resetRightBtn.disabled = "disabled";
+    }   
 }
