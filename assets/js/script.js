@@ -17,9 +17,7 @@ let computerChoice;
 let playingState = HUMAN_SHOOTING;
 let turnMessage;
 
-/*
-the users choice on which direction to shoot
-*/
+// the users choice on which direction to shoot
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     humanChoice = e.target.id;
     yourChoiceDisplay.innerHTML = humanChoice;
@@ -27,9 +25,8 @@ possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener('click'
     updateScore();
 }));
 
-/*
-generate a random number which determines the direction the gk dives
-*/
+
+// generate a random number which determines the direction the gk dives
 function generateComputerChoice() {
     let randomNumber = Math.floor(Math.random() * 3 + 1);
 
@@ -72,10 +69,10 @@ function updateScore() {
     }
     resultDisplay.innerHTML = result;
 
-    // Update messages
+    // update messages
     renderPlayerState();
 
-    // Set the game state
+    // set the game state
     setState();
 }
 
@@ -96,6 +93,7 @@ function renderPlayerState() {
     }
 }
 
+// when score reaches 5 end winner alert 
 function endWinner() {
     if (humanScore === 5 && computerScore < 5) {
         endMessage.innerHTML = "YOU WIN!!!";
@@ -107,6 +105,7 @@ function endWinner() {
     }
 }
 
+// disable buttons and stop score incrementing once score reaches 5
 function restart() {
     if (humanScore || computerScore === 5) {
         let resetLeftBtn = document.getElementById('Left')
@@ -115,5 +114,5 @@ function restart() {
         resetLeftBtn.disabled = "disabled";
         resetMidBtn.disabled = "disabled";
         resetRightBtn.disabled = "disabled";
-    }   
+    }
 }
