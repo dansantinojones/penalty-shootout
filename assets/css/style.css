@@ -19,20 +19,20 @@ h1 {
 
 /* --------- goal image */
 img {
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
 /* --------- ball */
 #ball > img{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
 }
 
 /* --------- choices section*/
 .selection {
     font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     transition: 250ms;
     color: #00ff00;
     padding: 1rem;
@@ -59,7 +59,7 @@ img {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 0.4rem;
 }
 
@@ -108,7 +108,7 @@ h3 {
     }
 
     img {
-        width: 320px;
+        width: 310px;
         height: auto;
     }
 
@@ -121,14 +121,31 @@ h3 {
         padding-top: 0.4rem;
     }
 
+    #refresh > button {
+        font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+        font-size: 0.8rem;
+        transition: 250ms;
+        color: #00ff00;
+        padding: 0.5rem;
+        border: 2px solid #00ff00;
+        background-color: #000000;
+        border-radius: 8px;
+    }
+    
+    #refresh > button:hover {
+        background-color: #00ff00;
+        color: #000000;
+        transform: scale(1.2);
+    }
+
     #your-score, #gk-score {
         color: #00ff00;
         font-size: 1.2rem;
     }
 
     #ball > img{
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
     }
 
     .selection {
@@ -149,7 +166,7 @@ h3 {
     
     #result {
         color: #00ff00;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center;
         line-height: 1.2;
     }
@@ -174,13 +191,13 @@ h3 {
     }
 
     #ball > img{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     #result {
         color: #00ff00;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
         line-height: 1.2;
     }
@@ -188,5 +205,22 @@ h3 {
     h3 {
         font-size: 0.5rem;
         line-height: 1.2rem;
+    }
+
+    #refresh > button {
+        font-family: 'Press Start 2P', 'Orbitron', 'Sarpanch';
+        font-size: 0.5rem;
+        transition: 250ms;
+        color: #00ff00;
+        padding: 0.5rem;
+        border: 2px solid #00ff00;
+        background-color: #000000;
+        border-radius: 8px;
+    }
+    
+    #refresh > button:hover {
+        background-color: #00ff00;
+        color: #000000;
+        transform: scale(1.2);
     }
 }
