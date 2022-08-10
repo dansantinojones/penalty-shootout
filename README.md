@@ -12,7 +12,7 @@ Here is a link to the live website: [https://dansantinojones.github.io/penalty-s
 * Create a retro-style game.
 
 ## User Goals
-* To play the game and outscore the goalkeeper.
+* To play the game against the computer and score 5 goals to win.
 
 # UX
 ## Strategy 
@@ -27,6 +27,7 @@ Following the core UX principles I firstly decided on the target audience of use
 * Multiple choice.
 * Element of chance.
 * Score tracking. 
+* End result.
 
 ### This website is best for users: 
 * Retro art style. 
@@ -38,9 +39,11 @@ Following the core UX principles I firstly decided on the target audience of use
 To achieve the strategic goals, I included the following features:
 * Header with retro gaming font.
 * Scoreboard with points tracker.
-* Cartoon style goal and goalkeeper.
-* Cartoon style retro football.
-* Retro style buttons with hover effect.
+* An alert to notify the user if they are shooting or saving.
+* A play again button to reset the score.
+* Cartoon-style goal and goalkeeper.
+* Cartoon-style retro football.
+* Retro-style buttons with hover effect.
 * A results section.
 * Responsive alert.
 
@@ -55,13 +58,13 @@ I created wireframes using [Balsamiq](https://balsamiq.com/). Please note the we
 ![Desktop Wireframe](assets/images/wf-desktop.png)
 
 ## Surface 
-The colours used for the website were chosen to achieve the goals of simplicity and retro gaming style. The green colour was used to highlight the important aspects of the website such as the main heading, result and score. The colours used passed the [Colour Contrast Accessibility Validator](https://color.a11y.com/).
+The colours used for the website were chosen to achieve the goals of simplicity and retro gaming style. The green colour was used to highlight the important aspects of the website such as the main heading, result, score and play again. The colours used passed the [Colour Contrast Accessibility Validator](https://color.a11y.com/).
 
 ![Colour Contrast Validator](assets/images/colour-contrast-validator.png)
 
 I decided to use the Start Press 2P font from [Google Fonts](https://fonts.google.com/) as this provides a retro gaming style to the webpage achieving the business goals.
 
-A hover effect was used on the choices buttons. A scale and colour change were used to highlight the buttons and users' options.
+A hover effect was used on the choices buttons. A scale and colour change were used to highlight the buttons and users' options and play again button.
 
 # Features
 ## Title 
@@ -86,6 +89,12 @@ Once the score reaches 5 the winner is announced in replcement of the turn alert
 
 ![You win!!!](assets/images/you-win.png)
 ![You lose!!!](assets/images/you-lose.png)
+
+## Play Again
+A play again button is inserted below the end winner alert for users to refresh the page to bring the results back to 0-0. The styling of the button is consistent with the choices buttons using the hover effect.
+
+![](assets/images/play-again.png)
+![](assets/images/play-again-hover.png)
 
 ## Image 
 The cartoon image was designed using [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) to help the user visualise the game whilst playing. 
