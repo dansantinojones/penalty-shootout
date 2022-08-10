@@ -228,10 +228,10 @@ JavaScript
 
 ![Javacript Validator Errors](assets/images/javascript-validator.png)
 
-The variables that were defined but not used have now been removed. Missing semicolon's were added.
+The variables that were defined but not used have now been removed. Missing semicolons were added. All other errors raised by the validator were bypassed as non-detrimental to the outcome of the page.
 
 Accessibility 
-* I confirm the colours and font chosen are easy to read and accessible when running lighthouse in devtools.
+* I confirm the colours and font chosen are easy to read and accessible when running lighthouse in dev tools.
 
 Mobile:
 ![Lighthouse Mobile](assets/images/lh-mobile.png)
@@ -248,6 +248,8 @@ I followed the steps below to deploy my webpage:
 4. Select 'Pages' on the left side menu.
 5. In the source section, select branch 'Master' and save.
 6. The page will produce your website's URL as seen below.
+
+Here is a link to the live website: [https://dansantinojones.github.io/penalty-shootout/](https://dansantinojones.github.io/penalty-shootout/)
 
 ![Deployment](assets/images/deployment.png)
 
